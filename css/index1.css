@@ -1,0 +1,474 @@
+body {
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+.routine,
+.comment_photo .top,
+.comment_photo .com {
+  background: #fff;
+}
+.banner {
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+.banner .banner_pic,
+.banner .mask {
+  width: 100%;
+}
+.banner .banner_pic img,
+.banner .mask img {
+  width: 100%;
+}
+.banner .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner .mask .logo {
+  width: 100%;
+  height: 0.7rem;
+  margin-top: 0.8rem;
+}
+.banner .mask h1 {
+  font-size: 0.52rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-weight: 900;
+  font-family: 'PingFang-SC-Medium';
+}
+.banner .mask .reply {
+  width: 0.48rem;
+  height: 0.42rem;
+  background: url(../img/iconlist6.png) no-repeat 0 -2.72rem;
+}
+.banner .mask .user_top,
+.banner .mask h1,
+.banner .mask .label {
+  text-align: center;
+}
+.banner .mask .user_top {
+  margin-top: 0.28rem;
+}
+.banner .mask .user_top img {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 0.66rem;
+}
+.banner .mask .user_top dd {
+  font-size: 0.38rem;
+}
+.banner .mask .label {
+  margin-top: 0.24rem;
+}
+.banner .mask .label b {
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fff;
+  font-size: 0.32rem;
+  font-weight: 400;
+  margin-right: 0.15rem;
+}
+.routine .sign_up {
+  padding-top: 0.54rem;
+}
+.routine .sign_up td {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  font-size: 0.32rem;
+  color: #333;
+}
+.routine .sign_up .sign {
+  width: 2.13rem;
+  height: 0.93rem;
+  line-height: 0.93rem;
+  font-size: 0.32rem;
+  background: #97cb42;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+.routine .route_refer {
+  padding-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+}
+.routine .route_refer p {
+  height: 0.64rem;
+  line-height: 0.64rem;
+  font-size: 0.32rem;
+}
+.routine .route_refer .refer {
+  margin-top: 0.21rem;
+  color: #333;
+}
+.routine .route_refer .d_route {
+  margin-top: 0.21rem;
+}
+.routine .route_refer .d_route span {
+  padding: 0.1rem 0;
+  color: #97cb42;
+  border: 1px solid #97cb42;
+  border-radius: 0.27rem;
+}
+.routine .detail {
+  margin-top: 0.53rem;
+  line-height: 0.64rem;
+  overflow: hidden;
+  color: #666;
+}
+.routine .detail_small {
+  height: 1.92rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.routine .toggle {
+  color: #97cb42;
+  text-align: center;
+  margin: 0.53rem auto 0 auto;
+  padding-bottom: 0.54rem;
+}
+.routine .toggle span {
+  font-size: 0.37rem;
+  display: inline-block;
+  line-height: 0.54rem;
+}
+.routine .toggle .icon-icon_uparrow {
+  color: #97cb42;
+}
+.user_lists {
+  margin: 0.27rem 0;
+  background: #fff;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+.user_lists span {
+  color: #666;
+}
+.user_lists .u_list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user_lists .u_list li {
+  margin-right: 0.17rem;
+}
+.user_lists .u_list li img {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  vertical-align: middle;
+}
+.user_lists .u_list .last {
+  margin-right: 0;
+}
+.comment_photo .top {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.27rem;
+}
+.comment_photo .top .sum {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+}
+.comment_photo .top .sum span {
+  display: inline-block;
+  width: 1.23rem;
+  font-size: 0.43rem;
+  color: #333;
+}
+.comment_photo .top .sum span:hover {
+  cursor: pointer;
+}
+.comment_photo .top .active span {
+  border-bottom: 3px solid #97cb42;
+}
+.comment_photo .com .com_list {
+  padding: 0.59rem 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+.comment_photo .com .com_list img {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 0.55rem;
+}
+.comment_photo .com .com_list .user_name {
+  height: 1.1rem;
+}
+.comment_photo .com .com_list .user_name p {
+  font-size: 0.37rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  overflow: hidden;
+  color: #97cb42;
+  font-weight: bold;
+}
+.comment_photo .com .com_list .user_name span {
+  color: #999;
+  font-size: 0.26rem;
+}
+.comment_photo .com .com_list .gt {
+  width: 85%;
+}
+.comment_photo .com .com_list .gt .com_detail {
+  color: #333;
+  font-size: 0.37rem ;
+  line-height: 0.64rem;
+  margin-bottom: 0.27rem;
+}
+.comment_photo .com .com_list .gt .c_reply {
+  color: #97cb42;
+  font-size: 0.32rem;
+  font-weight: bold;
+}
+.comment_photo .pho {
+  display: none;
+  width: 100%;
+}
+.comment_photo .pho .pho_list {
+  background: #fff;
+  margin-bottom: 0.27rem;
+}
+.comment_photo .pho .pho_list_top > img {
+  width: 100%;
+}
+.comment_photo .pho .pho_list_top {
+  position: relative;
+}
+.comment_photo .pho .pho_list_top .mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 0.32rem;
+}
+.comment_photo .pho .pho_list_top .mask p {
+  height: 0.67rem;
+  line-height: 0.67rem;
+}
+.comment_photo .pho .pho_list_top .mask p .icon-icon_alimeter {
+  display: inline-block;
+  font-size: 0.55rem;
+  vertical-align: middle;
+  margin-top: 0.1rem;
+}
+.comment_photo .pho .pho_list_top .mask p .icon-icon_location {
+  font-size: 0.55rem;
+  vertical-align: middle;
+}
+.comment_photo .pho .pho_list_top .mask p .d_text {
+  font-size: 0.32rem;
+  color: #c9c9c9;
+}
+.comment_photo .pho .pho_list_top .mask p .a_text {
+  font-size: 0.43rem;
+}
+.comment_photo .pho .pho_list_top .mask p .k {
+  width: 0.13rem;
+}
+.comment_photo .pho .pho_list_top .mask .con1 {
+  font-size: 0.43rem;
+}
+.comment_photo .pho .pho_list_top .mask .con1 b {
+  font-size: 0.48rem;
+  font-weight: 400;
+}
+.comment_photo .pho .pho_list_bottom .user_list {
+  margin: 0.54rem auto 0.27rem auto;
+}
+.comment_photo .pho .pho_list_bottom p.lt {
+  color: #97cb42;
+  font-size: 0.37rem;
+  line-height: 0.53rem;
+  font-weight: 900;
+}
+.comment_photo .pho .pho_list_bottom p.gt {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #999;
+  font-size: 0.27rem;
+}
+.comment_photo .pho .pho_list_bottom .s_detail {
+  color: #333;
+  font-size: 0.35rem;
+  line-height: 0.6rem;
+  padding-bottom: 0.4rem;
+}
+.comment_photo .pho .pho_list_bottom img {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  vertical-align: middle;
+}
+.download {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.download .downloadapp {
+  display: block;
+  width: 72%;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  margin: 0.53rem auto 1.38rem auto;
+  border: 1px solid #000;
+  border-radius: 0.56rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.37rem;
+}
+.download .text {
+  display: block;
+  font-size: 0.32rem;
+  color: #333;
+  padding-bottom: 0.72rem;
+}
+.download .text u {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../img/copy_6.png);
+  background-size: 0.32rem 0.32rem;
+  vertical-align: middle;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+footer .content .picture {
+  width: 1.8rem;
+  margin: 0.66rem auto;
+  vertical-align: middle;
+}
+footer .content .con_gt {
+  margin: 0.5rem auto auto 0.53rem;
+  line-height: 2rem;
+  height: 2.24rem;
+}
+footer .content .con_gt .text {
+  width: 3.84rem;
+}
+footer .content .con_gt p {
+  color: #fff;
+  font-size: 0.43rem;
+  line-height: 0.59rem;
+}
+footer .content .con_gt span {
+  display: inline-block;
+  width: 2.4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 0.1rem;
+  font-size: 0.43rem;
+}
+footer .content .con_gt .openapp {
+  width: 2.99rem;
+  border: 1px solid #fff;
+}
+footer .content .con_gt .downloadapp {
+  border: 1px solid #f23c3c;
+  background: #f23c3c;
+  margin-left: 0.61rem;
+}
+.icon-icon_share {
+  font-size: 0.48rem;
+}
+.six_logo {
+  color: #fff;
+  font-size: 0.39rem;
+  vertical-align: middle;
+}
+.six_logo .icon-icon_sixfoot {
+  font-size: 0.69rem;
+  vertical-align: middle;
+}
+.six_logo .text {
+  height: 0.69rem;
+  line-height: 0.7rem;
+}
+.time {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -0.05rem;
+}
+.ios_mask,
+.android_mask {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 0.43rem;
+}
+.ios_mask .arrow1,
+.android_mask .arrow1 {
+  width: 1.52rem;
+  height: 1.93rem;
+  margin: 0.91rem auto auto 7.5rem;
+}
+.ios_mask p,
+.android_mask p {
+  margin-bottom: 1.33rem;
+}
+.ios_mask .p1,
+.android_mask .p1 {
+  margin-left: 3rem;
+}
+.ios_mask .p2,
+.android_mask .p2 {
+  margin-left: 1.6rem;
+}
+.ios_mask .p3,
+.android_mask .p3 {
+  margin-left: 2.37rem;
+}
+.ios_mask .p1_android,
+.android_mask .p1_android {
+  margin: 1.6rem auto 2rem 3rem;
+}
+.ios_mask .dot,
+.android_mask .dot {
+  width: 0.58rem;
+  height: 0.16rem;
+}
+.ios_mask .android,
+.android_mask .android {
+  width: 1.06rem;
+  height: 1.06rem;
+  vertical-align: middle;
+}
+.ios_mask .ios,
+.android_mask .ios,
+.ios_mask .six_icon,
+.android_mask .six_icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  vertical-align: middle;
+}
+.ios_mask .six_icon,
+.android_mask .six_icon {
+  vertical-align: top;
+  margin-top: -0.25rem;
+}

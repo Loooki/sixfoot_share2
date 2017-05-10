@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="name" charset="utf-8" content="content">
+    <title>折线图</title>
+    <style type="text/css" media="screen">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .standard-area {
+            float: left;
+            width: 700px;
+            height: 400px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="gloab">
+    <div class="gloab1">
+        <div class="standard-area" id="standard-area">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+<script type="text/javascript">
+    var mychar = echarts.init(document.getElementById('standard-area'));
+    var data1=[];
+    var data2=[];
+    var data3=[];
+    for(var i=0;i<1000;i++){
+        data1.push(Math.random()*5000);
+        data2.push(Math.random()*50);
+    }
+    for(var j=0;j<100;j++){
+        data3.push(j);
+    }
+    var option = {
+        //图表展示的类别，这里的data和series中得name对应
+        legend: {
+            data: [{
+                name:'海拔(米)',
+                itemWidth:20,
+                itemHeight:20,
+                icon: 'circle'
+            },{
+                name:'速度（公里/时）',
+            }]
+        },
+        //这里的是采用什么方式触发数据，这里显示的竖轴，跟随鼠标移动到节点上会显示内容
+//        tooltip: {
+//            trigger: 'axis'
+//        },
+        //代表x轴，这里type类型代表字符
+
+        xAxis: [{
+            show:false,
+            type: 'category',
+            boundaryGap: false,//这里表示是否补齐空白
+            splitLine:{show: false},//去除网格线
+            data: data3
+        }],
+        //代表y轴，这里type类型代表num类型
+        yAxis: [
+            {
+                axisLine: {show: false},
+                axisTick: {
+                    show: false
+                },
+                type: 'value',
+                splitLine:{
+                    lineStyle:{
+                        type:'dashed'
+                    }
+                }
+            },
+            {
+                axisLine: {show: false},
+                axisTick: {
+                    show: false
+                },
+                type: 'value',
+                splitLine:{
+                    lineStyle:{
+                        type:'dashed'
+                    }
+                }
+            }
+        ],
+        //图表类型，type表示按照什么类型图表显示，line代表折线，下面的内容与
+        //legend一一对应
+        series: [{
+            name: '海拔(米)',
+            type: 'line',
+            smooth: true,
+            symbol: 'none',
+            itemStyle: {
+                normal: {
+                    color:'#00B8DF',
+                    lineStyle:{
+                        color:'#00B8DF'
+                    },
+                    areaStyle: {
+                        type: 'default',
+                        color:'#00B8DF'
+                    }
+                }
+            },
+            data: data1
+        }, {
+            name: '速度（公里/时）',
+            type: 'line',
+            smooth: true,
+            symbol:'none',
+            yAxisIndex: 1,
+            itemStyle: {
+                normal: {
+                    color:'#34E299',
+                    lineStyle:{
+                        color:'#34E299'
+                    }
+                }
+            },
+            data:data2
+        }]
+    };
+    //配置图表设置并读取
+    mychar.setOption(option);
+</script>
+</body>
+
+</html>

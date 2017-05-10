@@ -1,0 +1,270 @@
+.routine {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.routine .content {
+  margin-bottom: 0.27rem;
+}
+.routine .content h1 {
+  width: 100%;
+  line-height: 0.68rem;
+  font-size: 0.48rem;
+  padding-top: 0.43rem;
+}
+.routine .content .user {
+  width: 100%;
+  padding-top: 0.32rem;
+  padding-bottom: 0.25rem;
+}
+.routine .content .user ul {
+  overflow: hidden;
+}
+.routine .content .user ul li {
+  width: 33%;
+  float: left;
+}
+.routine .content .user ul li img {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  vertical-align: middle;
+}
+.routine .content .user ul li .user_name {
+  color: #97cb42;
+  font-size: 0.37rem;
+}
+.routine .content .user ul li p {
+  font-size: 0.32rem;
+  color: #464646;
+  padding-left: 1rem;
+}
+.routine .content .user ul li .gray {
+  color: #999;
+  font-size: 0.27rem;
+  padding-left: 1rem;
+}
+.routine .content .user ul li .label {
+  width: 2.13rem;
+  height: 0.54rem;
+  line-height: 0.54rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  background: #F1FBEC;
+  float: right;
+  margin-top: 0.1rem;
+}
+.comment_photo {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.comment_photo .fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background: rgba(255, 255, 255, 0.5);
+}
+.comment_photo .top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.comment_photo .top .content .cate {
+  width: 31%;
+  display: inline-block;
+  text-align: center;
+}
+.comment_photo .top .content .cate a,
+.comment_photo .top .content .cate a:hover,
+.comment_photo .top .content .cate a:visited,
+.comment_photo .top .content .cate a:link,
+.comment_photo .top .content .cate a:active {
+  display: block;
+  width: 100%;
+  color: #333;
+  text-decoration: none;
+}
+.comment_photo .top .content .cate span {
+  display: block;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.43rem;
+  width: 1.28rem;
+  margin: 0 auto;
+}
+.comment_photo .top .content .active {
+  color: #97cb42;
+}
+.comment_photo .data {
+  background: #fff;
+  margin-bottom: 0.27rem;
+  position: relative;
+}
+.comment_photo .data .data_con,
+.comment_photo .data .summary {
+  width: 100%;
+  overflow: hidden;
+}
+.comment_photo .data .data_con li,
+.comment_photo .data .summary li {
+  float: left;
+  width: 33%;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.comment_photo .data .data_con li h2,
+.comment_photo .data .summary li h2 {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.64rem;
+  color: #333;
+  font-family: Impact;
+}
+.comment_photo .data .data_con li span,
+.comment_photo .data .summary li span {
+  font-size: 0.32rem;
+  color: #666;
+}
+.comment_photo .data .line {
+  width: 80%;
+  margin: 0  auto;
+  height: 1px;
+  border-top: 1px solid #f5f5f5;
+  position: absolute;
+  top: 2.2rem;
+  left: 0.93rem;
+}
+.comment_photo .data .data_picture {
+  position: relative;
+}
+.comment_photo .data .data_picture .ruler {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.comment_photo .data .data_picture .ruler u,
+.comment_photo .data .data_picture .ruler i {
+  display: inline-block;
+  margin-right: 0.1rem;
+}
+.comment_photo .data .data_picture .ruler u {
+  width: 0.26rem;
+  height: 0.26rem;
+  border-radius: 0.13rem;
+  background: #0CA9DD;
+}
+.comment_photo .data .data_picture .ruler i {
+  width: 0.24rem;
+  height: 0.08rem;
+  background: #34E299;
+  vertical-align: middle;
+}
+.comment_photo .data .data_picture .chart {
+  width: 100%;
+  height: 5.2rem;
+}
+.comment_photo .data .data_picture .coordinate {
+  width: 100%;
+  height: 5.2rem;
+  position: absolute;
+  top: 1.1rem;
+  left: 0;
+}
+.comment_photo .data .data_picture .coordinate li {
+  height: 1.04rem;
+}
+.comment_photo .data .summary li {
+  width: 25%;
+}
+.comment_photo .schedule {
+  background: #fff;
+  margin-bottom: 0.27rem;
+}
+.comment_photo .schedule .title {
+  padding-top: 0.53rem;
+}
+.comment_photo .schedule .title u {
+  display: inline-block;
+  width: 0.11rem;
+  height: 0.37rem;
+  background: #97cb42;
+  vertical-align: middle;
+}
+.comment_photo .schedule .title span {
+  font-size: 0.37rem;
+  color: #333;
+  vertical-align: middle;
+}
+.comment_photo .schedule .detail {
+  margin-top: 0.53rem;
+  line-height: 0.64rem;
+  overflow: hidden;
+  color: #666;
+  font-size: 0.37rem;
+}
+.comment_photo .schedule .detail_small {
+  height: 1.92rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.comment_photo .schedule .toggle {
+  color: #97cb42;
+  text-align: center;
+  margin: 0.53rem auto 0 auto;
+  padding-bottom: 0.54rem;
+}
+.comment_photo .schedule .toggle span {
+  font-size: 0.37rem;
+  display: inline-block;
+  line-height: 0.54rem;
+}
+.comment_photo .schedule .toggle .icon-icon_uparrow {
+  color: #97cb42;
+}
+.comment_photo .schedule .schedule_lists {
+  margin-top: 0.27rem;
+}
+.comment_photo .schedule .schedule_lists li .day {
+  width: 100%;
+  height: 0.88rem;
+}
+.comment_photo .schedule .schedule_lists li .day .line {
+  position: relative;
+  width: 2.8rem;
+  margin: 0 auto;
+  padding: 0.5rem auto;
+  height: 0.88rem;
+  border-top: 1px solid #ccc;
+}
+.comment_photo .schedule .schedule_lists li .day .line p {
+  position: absolute;
+  top: -0.5rem;
+  left: 0.5rem;
+  width: 1.8rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  background: #fff;
+  text-align: center;
+  font-size: 0.37rem;
+}
+.comment_photo .schedule .schedule_lists li .day .line p span {
+  font-family: 'HelveticaNeueDeskInterface-Heavy';
+  font-size: 0.64rem;
+  font-weight: 900;
+  padding: 0 0.1rem;
+  vertical-align: baseline;
+}
+.comment_photo .schedule .schedule_lists li img {
+  width: 100%;
+}
+.comment_photo .schedule .schedule_lists li .info .tip {
+  line-height: 1.17rem;
+}
+.comment_photo .schedule .schedule_lists li .info .day_info {
+  padding-bottom: 0.8rem;
+  line-height: 0.64rem;
+  font-size: 0.37rem;
+  color: #333;
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?56hcvn');
+  src:  url('../fonts/icomoon.eot?56hcvn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?56hcvn') format('truetype'),
+    url('../fonts/icomoon.woff?56hcvn') format('woff'),
+    url('../fonts/icomoon.svg?56hcvn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_master:before {
+  content: "\e900";
+}
+.icon-icon_activity:before {
+  content: "\e901";
+}
+.icon-icon_camera:before {
+  content: "\e902";
+}
+.icon-icon_close:before {
+  content: "\e903";
+}
+.icon-icon_comment:before {
+  content: "\e904";
+}
+.icon-icon_location:before {
+  content: "\e905";
+}
+.icon-icon_downarrow:before {
+  content: "\e906";
+}
+.icon-icon_favorite:before {
+  content: "\e907";
+}
+.icon-icon_good:before {
+  content: "\e908";
+}
+.icon-icon_hobbie:before {
+  content: "\e909";
+}
+.icon-icon_leftarrow:before {
+  content: "\e90a";
+}
+.icon-icon_line:before {
+  content: "\e90b";
+}
+.icon-icon_more_outline:before {
+  content: "\e90c";
+}
+.icon-icon_more:before {
+  content: "\e90d";
+}
+.icon-icon_rightarrow:before {
+  content: "\e90e";
+}
+.icon-icon_share:before {
+  content: "\e90f";
+}
+.icon-icon_sixfoot:before {
+  content: "\e910";
+}
+.icon-icon_time:before {
+  content: "\e911";
+}
+.icon-icon_uparrow:before {
+  content: "\e912";
+}
+.icon-icon_discovery:before {
+  content: "\e913";
+}
+.icon-icon_record:before {
+  content: "\e914";
+}
+.icon-icon_recording:before {
+  content: "\e915";
+}
+.icon-icon_mine:before {
+  content: "\e916";
+}
+.icon-icon_alimeter:before {
+  content: "\e917";
+}
+.icon-icon_search:before {
+  content: "\e918";
+}
+.icon-icon_loading:before {
+  content: "\e919";
+}
+
